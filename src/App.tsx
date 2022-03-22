@@ -5,6 +5,9 @@ import {Main} from "./Main/Main";
 import {Skills} from "./Skills/Skills";
 
 function App() {
+
+
+
   return (
     <div className="App">
       <Header />
