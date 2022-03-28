@@ -1,6 +1,6 @@
 import React from "react";
 import s from './SingleSkill.module.css'
-import styleContainer from "../../common/styles/Container.module.css";
+
 
 type SingleSkillPropsType = {
     title:string,
@@ -9,10 +9,10 @@ type SingleSkillPropsType = {
 
 export const SingleSkill = (props:SingleSkillPropsType) => {
     return (
-        <div className = { s.singleSkill} >
-            <div className = {s.icon}>none</div>
+        <div className = {s.singleSkill} >
+            <div className = {s.icon}></div>
             <h3>{props.title}</h3>
-            < span className = {s.description}>{props.description}</span>
+            <span className = {s.description}>{props.description}</span>
         </div>
     )
 }

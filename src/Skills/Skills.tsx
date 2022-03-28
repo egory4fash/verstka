@@ -10,11 +10,11 @@ export const Skills = (props: any) => {
     return (
         <div className={s.block}>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
-                <h2 className = {s.title}>Skills</h2>
-                <div className={`${styleContainer.container} ${s.skills}`}>
-                    <SingleSkill title = {'React'} description={description}/>
-                    <SingleSkill title = {'TypeScript'} description={description}/>
-                    <SingleSkill title = {'HTML/CSS'} description={description}/>
+                <h2 className={s.title}>Skills</h2>
+                <div className={s.skills}>
+                    <SingleSkill title={'React'} description={description}/>
+                    <SingleSkill title={'TypeScript'} description={description}/>
+                    <SingleSkill title={'HTML/CSS'} description={description}/>
                 </div>
             </div>
         </div>

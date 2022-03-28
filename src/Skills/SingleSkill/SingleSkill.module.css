@@ -1,22 +1,18 @@
 .singleSkill {
     width: 250px;
-
+    background-color: yellow;
     display: flex;
-    background-color: palegreen;
-    justify-content: flex-start;
-    align-items: center;
     flex-direction: column;
-
-
+    align-items: center;
+    text-align: center;
 }
 
 .description {
-    background-color: darkturquoise;
-    text-align: center;
+
 }
 
 .icon {
     height: 60px;
     width: 60px;
-    background-color: black;
+    background-color: darkgreen;
 }
