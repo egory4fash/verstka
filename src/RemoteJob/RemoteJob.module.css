@@ -1,5 +1,5 @@
 .block {
-    height: 15vh;
+    max-height: 30vh;
     background-color: chartreuse;
 }
 
@@ -11,8 +11,13 @@
     flex-wrap: wrap;
 }
 
+.title {
+    background-color: gray;
+    text-align: center;
+}
+
 .button {
-    width: 100px;
+    width: 150px;
     height: 50px;
 
 }
