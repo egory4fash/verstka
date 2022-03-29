@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/verstka/static/css/main.02a12467.css",
+    "main.js": "/verstka/static/js/main.6947eb76.js",
+    "static/js/787.495564f4.chunk.js": "/verstka/static/js/787.495564f4.chunk.js",
+    "index.html": "/verstka/index.html",
+    "main.02a12467.css.map": "/verstka/static/css/main.02a12467.css.map",
+    "main.6947eb76.js.map": "/verstka/static/js/main.6947eb76.js.map",
+    "787.495564f4.chunk.js.map": "/verstka/static/js/787.495564f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02a12467.css",
+    "static/js/main.6947eb76.js"
+  ]
+}
