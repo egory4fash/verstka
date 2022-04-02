@@ -13,7 +13,7 @@ export const Main = (props: any) => {
                     <p>Front Dev</p>
                 </div>
                 <div
-                    className={s.photo}>
+                    className={s.photo}>photo
                 </div>
             </div>
 
