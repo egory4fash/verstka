@@ -12,7 +12,7 @@ export const Contacts = () => {
                     <input className = {s.input} placeholder={'e-mail'}/>
                     <textarea className={s.textarea} placeholder={'Enter offered salary here'}></textarea>
                 </form>
-                <button className = {s.button}>Send</button>
+                <button className = {s.button} >Send</button>
             </div>
         </div>
     )
