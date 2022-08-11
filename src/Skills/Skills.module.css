@@ -9,14 +9,18 @@
 
 
 }
-.title {
-    background-color: fuchsia;
-}
+
 
 .skills {
     border:1px solid;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    margin-top:30px
+}
+@media screen and (max-width: 624px) {
+    .skills {
+        justify-content: center;
+    }
 }

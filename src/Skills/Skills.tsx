@@ -2,6 +2,7 @@ import React from "react";
 import s from './Skills.module.css'
 import styleContainer from '../common/styles/Container.module.css'
 import {SingleSkill} from "./SingleSkill/SingleSkill";
+import {Title} from "../Title/Title";
 
 export const Skills = (props: any) => {
 
@@ -10,7 +11,7 @@ export const Skills = (props: any) => {
     return (
         <div className={s.block}>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
-                <h2 className={s.title}>Skills</h2>
+                <Title title={'Skills'}/>
                 <div className={s.skills}>
                     <SingleSkill title={'React'} description={description}/>
                     <SingleSkill title={'TypeScript'} description={description}/>
