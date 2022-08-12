@@ -1,0 +1,32 @@
+@import "variables";
+
+@mixin text ($fontFamily,$lineHeight,$fontSize) {
+  font-family: $fontFamily;
+  line-height: $lineHeight;
+  font-size: $fontSize;
+  color: $textColor;
+}
+
+@mixin flex ($justifyContent, $alignItems) {
+  display: flex;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
+
+@mixin icons () {
+  @include flex(center,center);
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  position: relative;
+  &::before {
+    position: absolute;
+    content: '';
+    background-color: black;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    opacity: 0.4;
+  }
+  }

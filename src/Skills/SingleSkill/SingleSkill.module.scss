@@ -1,3 +1,6 @@
+@import "src/common/styles/sass/mixins";
+
+
 .singleSkill {
     width: 250px;
     background-color: yellow;
@@ -16,5 +19,6 @@
 .icon {
     height: 60px;
     width: 60px;
-    background-color: darkgreen;
-}
+    @include icons
+    }
+

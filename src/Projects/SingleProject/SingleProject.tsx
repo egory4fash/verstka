@@ -1,16 +1,13 @@
 import React from "react";
-import s from './SingleProject.module.css'
+import s from './SingleProject.module.scss'
 
 type SingleProjectPropsType = {
     title:string,
     description:string,
     style:StyleObjType
 }
-type StyleObjType = {
+export type StyleObjType = {
     backgroundImage:string,
-    width?:string,
-    height?:string,
-    color?:string
 }
 
 export const SingleProject = (props:SingleProjectPropsType) => {

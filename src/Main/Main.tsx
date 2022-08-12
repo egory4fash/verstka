@@ -1,12 +1,12 @@
 import React from "react";
-import s from './Main.module.css'
+import s from './Main.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 
 
 export const Main = (props: any) => {
     return (
         <div className={s.mainBlock}>
-            <div className={styleContainer.container}>
+            <div className={`${styleContainer.container} ${s.container}`}>
                 <div className={s.text}>
                     <span>Hi there</span>
                     <h1>I'm Egor</h1>

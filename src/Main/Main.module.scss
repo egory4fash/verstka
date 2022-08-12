@@ -1,0 +1,28 @@
+@import "src/common/styles/sass/mixins";
+
+
+.mainBlock {
+    background-color: $backgroundColor;
+    height: 100vh;
+    .container {
+        .text {
+            width: 300px;
+            background-color: $backgroundColor2;
+            @include text($mainFont,1.8,24px);
+            .name{
+                @include  text($mainFont,2.5,36px)
+            }
+        }
+        .photo {
+            width: 300px;
+            height: 400px;
+            background-color: snow;
+        }
+    }
+}
+
+
+
+
+
+

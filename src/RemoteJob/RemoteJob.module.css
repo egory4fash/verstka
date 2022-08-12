@@ -1,5 +1,5 @@
 .block {
-    max-height: 30vh;
+    max-height: 40vh;
     background-color: chartreuse;
 }
 
@@ -9,6 +9,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    text-align: center;
 
 }
 

@@ -1,0 +1,24 @@
+@import './src/common/styles/container.module.scss';
+@import "src/common/styles/sass/mixins";
+
+.block {
+    min-height: 100vh;
+    background-color: blanchedalmond;
+    .skillsContainer {
+        flex-direction: column;
+        justify-content: flex-start;
+        .skills {
+            width: 100%;
+            @include flex(space-around,'');
+            flex-wrap: wrap;
+            margin-top:30px;
+            @media screen and (max-width: 624px) {
+                justify-content: center;
+        }
+        }
+    }
+}
+
+
+
+

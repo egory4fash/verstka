@@ -1,0 +1,11 @@
+@import "src/common/styles/sass/mixins";
+
+
+.nav {
+  margin-right: 50px;
+  width: 300px;
+  @include flex(space-between, center);
+  .links {
+    @include text($font2,1.2,16px);
+  }
+}

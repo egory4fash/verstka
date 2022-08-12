@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Projects.module.css'
+import s from './Projects.module.scss'
 import styleContainer from '../common/styles/Container.module.css';
 import {SingleProject} from './SingleProject/SingleProject';
 import {Title} from '../Title/Title';
@@ -11,7 +11,6 @@ export const Projects = () => {
 
     const pic1 = {
         backgroundImage: `url(${firstImage})`,
-
     }
     const pic2 = {
         backgroundImage: `url(${secondImage})`,
