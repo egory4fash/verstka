@@ -4,7 +4,14 @@
 
 .block {
     max-height: 40vh;
+    min-height: 35vh;
     background-color: $backgroundColor;
+    @media screen and (max-height: 567px)  {
+        min-height: 250px;
+    }
+    @media screen and (max-width: 405px) {
+        min-height: 320px;
+    }
     .remoteContainer {
         flex-direction: column;
         justify-content: space-between;
