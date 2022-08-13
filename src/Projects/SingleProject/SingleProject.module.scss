@@ -16,14 +16,7 @@
     align-items: center;
     @include icons
     .button {
-      width: 150px;
-      height: 50px;
-      border-radius: 50px;
-      background: linear-gradient(45deg, #d5d1d1, #fef8f8);
-      box-shadow:  6px -6px 5px #726f6f,
-      -6px 6px 5px #ffffff;
-      border:none;
-      margin: 15px;
+      @include button;
       position: relative;
       z-index: 1;
     }

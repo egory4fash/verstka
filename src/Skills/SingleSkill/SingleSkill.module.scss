@@ -1,19 +1,20 @@
 @import "src/common/styles/sass/mixins";
+@import "src/common/styles/sass/variables";
 
 
 .singleSkill {
     width: 250px;
-    background-color: yellow;
-    display: flex;
+    background-color: $backgroundColor;
+    @include flex(space-around,center);
+    @include text($mainFont,1.8,24px);
     flex-direction: column;
-    align-items: center;
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
 }
 
 .description {
-
+@include text($font2,1.2,12px)
 }
 
 .icon {

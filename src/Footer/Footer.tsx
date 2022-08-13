@@ -1,11 +1,12 @@
 import React from "react";
-import s from './Footer.module.css'
+import s from './Footer.module.scss'
+import {Title} from "../Title/Title";
 
 
 export const Footer = () => {
     return (
         <div className = {s.block}>
-            <h3>Egor Maksul</h3>
+            <Title title={'Egor Maksul'}/>
             <div className = {s.blackWhite}>
                 <div className = {s.square}></div>
                 <div className = {s.square}></div>

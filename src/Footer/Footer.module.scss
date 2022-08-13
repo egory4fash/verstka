@@ -1,0 +1,45 @@
+@import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
+
+
+.block {
+    background-color: $backgroundColor;
+    @include flex(space-between,center);
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    .title {
+        @include text($mainFont,1.8,24px)
+    }
+    .blackWhite {
+        margin-top: 30px;
+        width: 70%;
+        min-width: 360px;
+        height: 50px;
+        background-color: white;
+        @include flex(space-between,normal);
+        .square {
+            width: 50px;
+            background-color: gray;
+        }
+    }
+    .copyLeft {
+        @include flex(center,center);
+        @include text($font2,1.2,12px);
+        .img {
+            height: 15px;
+            width: 15px;
+            background-color: white;
+        }
+    }
+}
+
+
+
+
+
+
+
+

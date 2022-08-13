@@ -3,14 +3,14 @@
 
 .mainBlock {
     background-color: $backgroundColor;
-    height: 100vh;
+    min-height: 100vh;
     .container {
         .text {
             width: 300px;
             background-color: $backgroundColor2;
-            @include text($mainFont,1.8,24px);
+            @include text($mainFont,1.0,24px);
             .name{
-                @include  text($mainFont,2.5,36px)
+                @include  text($mainFont,1.5,36px)
             }
         }
         .photo {
