@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/verstka/static/css/main.02a12467.css",
-    "main.js": "/verstka/static/js/main.423fa2d0.js",
+    "main.css": "/verstka/static/css/main.5bf7f54a.css",
+    "main.js": "/verstka/static/js/main.490d2bf9.js",
     "static/js/787.495564f4.chunk.js": "/verstka/static/js/787.495564f4.chunk.js",
+    "static/media/1st.svg": "/verstka/static/media/1st.e7d5b537e2cf5c5f093303be0a2e65a7.svg",
+    "static/media/2nd.svg": "/verstka/static/media/2nd.f99dd5a79115e70c8d317e182482a899.svg",
     "index.html": "/verstka/index.html",
-    "main.02a12467.css.map": "/verstka/static/css/main.02a12467.css.map",
-    "main.423fa2d0.js.map": "/verstka/static/js/main.423fa2d0.js.map",
+    "main.5bf7f54a.css.map": "/verstka/static/css/main.5bf7f54a.css.map",
+    "main.490d2bf9.js.map": "/verstka/static/js/main.490d2bf9.js.map",
     "787.495564f4.chunk.js.map": "/verstka/static/js/787.495564f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02a12467.css",
-    "static/js/main.423fa2d0.js"
+    "static/css/main.5bf7f54a.css",
+    "static/js/main.490d2bf9.js"
   ]
 }
