@@ -5,6 +5,13 @@
   margin-right: 50px;
   width: 300px;
   @include flex(space-between, center);
+  @media screen  and  (max-width: 425px){
+    @include flex (space-between,center);
+    margin-right: auto;
+    margin-left: auto;
+
+
+  }
   .links {
     @include text($font2,1.2,16px);
   }
