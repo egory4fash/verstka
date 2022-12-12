@@ -35,9 +35,9 @@
   width: 150px;
   height: 50px;
   border-radius: 50px;
-  background: linear-gradient(45deg, #d5d1d1, #fef8f8);
-  box-shadow:  6px -6px 5px #726f6f,
-  -6px 6px 5px #ffffff;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  -6px -6px 26px rgba(255,255,255,0.83),
+  6px 6px 16px RGBA(255,255,255,0.51);
   border:none;
   margin: 15px;
 }

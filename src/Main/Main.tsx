@@ -1,6 +1,7 @@
 import React from "react";
 import s from './Main.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
+import photo from '../assets/images/imgonline-com-ua-Resize-9Ga5RfsucH9.jpg'
 
 
 export const Main = (props: any) => {
@@ -13,7 +14,8 @@ export const Main = (props: any) => {
                     <p>Front Dev</p>
                 </div>
                 <div
-                    className={s.photo}>photo
+                    className={s.photo}>
+                    <img src={photo} width={'300px'} height={'400px'}/>
                 </div>
             </div>
 
